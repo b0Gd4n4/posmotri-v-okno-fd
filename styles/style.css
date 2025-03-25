@@ -109,7 +109,7 @@ ol {
 
 .content__list-container {
   height: 298px;
-  width: 399px;
+  width: 100%;
   overflow: auto;
   position: relative;
   display: flex;
