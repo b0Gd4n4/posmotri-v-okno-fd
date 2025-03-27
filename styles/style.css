@@ -142,12 +142,6 @@ ol {
   gap: 4px;
 }
 
-/*Не знаю, можно ли так задать, появившийся вопрос но попробую :)
-  Обращаясь к макету в фигме, не совсем понял где у button прописаны стили
-  border-bottom-style
-  border-bottom-width
-  Заранее спасибо.
-*/
 .button {
   min-height: 34px;
   font-family: Fira Sans Condensed, sans-serif;
@@ -158,7 +152,7 @@ ol {
   background-color: transparent;
   border-color: #ffffff;
   cursor: pointer;
-  border: 1px solid #FFFFFF
+  border: 1px solid #ffffff;
 }
 
 .button:hover {
@@ -292,7 +286,7 @@ input {
 }
 
 .search-form__textfield:focus {
-  outline: none; /* Убираем стандартную обводку */
+  outline: none;
 }
 
 .search-form__pseudo-checkbox {
@@ -338,6 +332,6 @@ input {
 
 .content__list-item {
   padding-left: 2px;
-  padding-right: 3px;
+  padding-right: 2px;
   cursor: pointer;
 }
