@@ -152,6 +152,8 @@ ol {
   background-color: transparent;
   border-color: #ffffff;
   cursor: pointer;
+  border-bottom-style: outset;
+  border-bottom-width: 2px;
 }
 
 .button:hover {
@@ -180,7 +182,6 @@ ol {
 .more-button {
   width: 100%;
   max-width: 390px;
-  min-height: 34px;
   padding-bottom: 9px;
   margin-bottom: 3px;
   padding-top: 8px;
@@ -280,10 +281,10 @@ input {
   color: #ffffff;
 }
 
-.search-form__label:has(.search-form__textfield:focus-visible) {
+/*.search-form__label:has(.search-form__textfield:focus-visible) {
   outline: 1px solid #ffffff;
   outline-offset: 1px;
-}
+}*/
 
 .search-form__label:has(:focus-visible) {
   outline: 1px solid #ffffff;
@@ -323,7 +324,7 @@ input {
   background-color: #545050;
 }
 
-.content__list-item:focus {
+.content__card-link:focus {
   outline: none;
 }
 
